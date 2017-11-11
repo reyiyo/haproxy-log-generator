@@ -1,0 +1,31 @@
+{
+  "name": "haproxy-log-generator",
+  "version": "1.0.0",
+  "description": "Generate fake haproxy logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reyiyo/haproxy-log-generator"
+  },
+  "keywords": [
+    "haproxy",
+    "logs",
+    "fake",
+    "generate"
+  ],
+  "author": {
+    "name": "Sergio Orbe",
+    "email": "reyiyo@gmail.com"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/reyiyo/haproxy-log-generator/issues"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "moment": "^2.19.1"
+  }
+}
